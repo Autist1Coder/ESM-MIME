@@ -1,0 +1,17 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "NODE_ENV=development nodemon server.js -w server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-html-parser": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
